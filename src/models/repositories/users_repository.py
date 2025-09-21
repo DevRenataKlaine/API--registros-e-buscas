@@ -1,6 +1,6 @@
 from src.models.connection.db_connection_handler import DBConnectionHandler
 from src.models.entities.users import Users
-from src.models.repositories.interfaces.users_repository import UsersRepositoryInterface #noqa
+from .interfaces.users_repository import UsersRepositoryInterface
 
 
 class UsersRepository(UsersRepositoryInterface):
