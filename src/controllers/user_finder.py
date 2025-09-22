@@ -1,6 +1,6 @@
 from src.controllers.interfaces.user_finder import UserFinderInterface
 from src.models.repositories.interfaces.users_repository import UsersRepositoryInterface # noqa
-from src.errors.error_types.http_not_found import HttpNotFoundError
+from src.validators.errors.error_types.http_not_found import HttpNotFoundError
 
 class UserFinder(UserFinderInterface):
     def __init__(self, users_repository: UsersRepositoryInterface):  # Inversão da dependência - D # noqa
