@@ -2,7 +2,7 @@
 
 Uma API em Python para registro de dados e realização de buscas personalizadas.
 
-Status: 🚧 Em desenvolvimento / versão inicial
+Status: versão inicial
 
 ## ⚙️ Funcionalidades
 
